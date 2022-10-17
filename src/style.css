@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  max-width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.main{
+  margin: auto;
+  margin-top: 50px;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+form{
+  margin: auto;
+}
+form input {
+  width: 400px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.img img {
+    max-width: 30%;
+    border-radius: 5px;
+  }
+
+  .infa_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .price {
+    margin-top: 25px;
+  }
+  .infa {
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .btn_details button {
+    border-color: green;
+    background-color: transparent;
+    color: green;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+  }
+
+  .text {
+    border-top: 1px solid green;
+    margin-top: 20px;
+  }
+  .text p {
+    margin-top: 20px;
+    font-weight: 500;
+  }
+  .add {
+    border-radius: 5px;
+    background-color: green;
+    border: none;
+    padding: 15px 20px;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .img img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .cart{
+    box-shadow: 0 0 5px 0 gray;
+    max-width: 30%;
+    margin: auto;
+    margin-top: 15px;
+  }
+  
